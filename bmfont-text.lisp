@@ -148,7 +148,8 @@
                    (f (glyph-x c))
                    (f (glyph-y c))
                    ;; non-standard
-                   (glyph-index c)
+                   ;;(glyph-index c)
+		   nil
                    ;; non-standard
                    (glyph-char c)
                    (f (glyph-width c))

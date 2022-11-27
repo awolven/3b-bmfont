@@ -147,8 +147,8 @@
                      ("page"(glyph-page c))
                      ("chnl"(glyph-chnl c)))
            ;; non-standard
-           when (glyph-index c)
-             do (jsown:extend-js j ("index"(glyph-index c)))
+           ;;when (glyph-index c)
+             ;;do (jsown:extend-js j ("index"(glyph-index c)))
            when (glyph-char c)
              do (jsown:extend-js j ("char"(glyph-char c)))
            when (glyph-letter c)
